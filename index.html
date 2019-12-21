@@ -501,6 +501,41 @@
                     
 
                     
+                        
+
+<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<div class="music-player">
+    
+    <div class="title center-align">
+        <i class="fas fa-music"></i>&nbsp;&nbsp;听听音乐
+    </div>
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="aplayer" class="music"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script>
+$(function () {
+    new APlayer({
+        container: document.getElementById('aplayer'),
+        fixed: 'false' === 'true',
+        autoplay: 'false' === 'true',
+        theme: '#42b983',
+        loop: 'all',
+        order: 'list',
+        preload: 'auto',
+        volume: Number('0.7'),
+        listFolded: 'false' === 'true',
+        listMaxHeight: '',
+        audio: eval([{"name":"儿时的夏日","artist":"余日秋山","url":"http://fdfs.xmcdn.com/group47/M06/AC/C8/wKgKm1t7kxqh_Ms8ACGS3tGMaHo539.mp3","cover":"http://imagev2.xmcdn.com/group46/M05/D8/A4/wKgKj1tuNeChiN4iAAA-_mx78Cg330.jpg"},{"name":"Love Home","artist":"夏小舟","url":"https://sharefs.yun.kugou.com/201912202221/6c50ba26dee793717f7f2950abecc0b4/G077/M05/11/13/7YYBAFf_p_SASwPjACaMswjhn2g819.mp3","cover":"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20191114/20191114154024251.jpg"},{"name":"世界美好与你环环相扣 (女声版)","artist":"恋爱的情梦","url":"http://fdfs.xmcdn.com/group68/M02/5B/8D/wKgMeF3pyQ6zTcHGABZDwwE4QUE687.mp3","cover":"http://imagev2.xmcdn.com/group68/M09/B2/CC/wKgMbl3RazKDaMkeAAIscHa6BHg488.jpg"},{"name":"飘向北方 (Live)","artist":"尤长靖、那吾克热-NW","url":"https://sharefs.yun.kugou.com/201912202220/573facf05a091f8f997aacf646fc68d2/G142/M07/1C/1F/zg0DAFuc2MCAb5KLAD8esGYtG4M338.mp3","cover":"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20190715/20190715164057620.jpg"},{"name":"还有我","artist":"G2er","url":"https://sharefs.yun.kugou.com/201912202231/78ecfbd72b1466d2d2b0b2766ee051ee/G168/M08/02/19/SIcBAF1CtVeASyqZADdG25sPgh8406.mp3","cover":"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20190919/20190919162916390.jpg"}])
+    });
+});
+</script>
+                    
 
                     
 
