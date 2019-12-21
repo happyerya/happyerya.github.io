@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://happyerya.github.io/"/>
-  <updated>2019-12-20T15:11:15.527Z</updated>
+  <updated>2019-12-21T14:34:31.845Z</updated>
   <id>https://happyerya.github.io/</id>
   
   <author>
@@ -17,17 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>MarkDown语法</title>
-    <link href="https://happyerya.github.io/2019/12/20/markdown-yu-fa/"/>
-    <id>https://happyerya.github.io/2019/12/20/markdown-yu-fa/</id>
-    <published>2019-12-20T15:11:15.000Z</published>
-    <updated>2019-12-20T15:11:15.527Z</updated>
+    <title>MarkDown语法汇总</title>
+    <link href="https://happyerya.github.io/2019/12/21/markdown-yu-fa/"/>
+    <id>https://happyerya.github.io/2019/12/21/markdown-yu-fa/</id>
+    <published>2019-12-21T14:29:00.000Z</published>
+    <updated>2019-12-21T14:34:31.845Z</updated>
     
     <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h1 id=&quot;MarkDown考核&quot;&gt;&lt;a href=&quot;#MarkDown考核&quot; class=&quot;headerlink&quot;
+        
+      
     
     </summary>
     
     
+      <category term="Markdown" scheme="https://happyerya.github.io/categories/Markdown/"/>
+    
+    
+      <category term="Typora" scheme="https://happyerya.github.io/tags/Typora/"/>
+    
+      <category term="Markdown" scheme="https://happyerya.github.io/tags/Markdown/"/>
     
   </entry>
   
